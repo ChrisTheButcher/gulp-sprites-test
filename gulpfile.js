@@ -9,4 +9,4 @@ gulp.task('sprites', function () {
         preprocessor: 'scss'
       }))
       .pipe(gulp.dest('./dist/img/'));
-});
+}); 
